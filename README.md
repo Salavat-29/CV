@@ -1,3 +1,3 @@
 # CV
-![image](https://user-images.githubusercontent.com/122313622/217603208-c6bfdb93-95a5-4741-848e-bd9d18a9815f.png)
+![final view](https://user-images.githubusercontent.com/122313622/217850085-5be4e021-f11f-4391-893f-831793e21eb1.png)
 Link - https://salavat-29.github.io/CV/
