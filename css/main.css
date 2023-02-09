@@ -20,7 +20,6 @@ body {
 }
 
 .btn {
-    display: inline-block;
     background-color: #070707;
     padding: 7px 22px;
     border-radius: 30px;
@@ -62,12 +61,14 @@ body {
     line-height: 1;
 }
 
+/* 1. Задаем абсолютную позицию с координатами и создаем позиционированного предка (position:relative) относительно него выше в (.logo), чтобы он смещался онтносительно него.
+2. content:"" - добавляет созданный элемент на страницу, с указанием "after" */
+
 .logo::after {
-    right: 0;
     bottom: 0;
+    right: 0;
     position: absolute;
     content: "";
-    display: block;
     width: 8px;
     height: 8px;
     background-color: #FDA300;
@@ -80,6 +81,8 @@ body {
     font-weight: 500;
     font-size: 14px;
 }
+
+/* Делаем невидимым элемент навигации на вуылещз версии */
 
 .nav-button {
     display: none;
@@ -123,6 +126,8 @@ body {
 padding: 90px 0;
 }
 
+/* Свойство flex-wrap и его значение позволяет выстроить сервисы на странице в несколько строк при уменьшении ширины */
+
 .cervices-row {
 display: flex;
 column-gap: 30px;
@@ -165,6 +170,8 @@ text-transform: uppercase;
 .project {
 text-align: center;
 }
+
+/* отступы только для 2-го и 3-го элемента "project"  */
 
 .project + .project {
     margin-top: 90px;

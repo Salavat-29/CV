@@ -6,6 +6,9 @@
     .nav-button {
         display: block;
     }
+
+/* "position:fixed" для того, чтобы при нажатии на кнопку навигации скрывать страницу и "z-index" для того, чтобы перекрывать содержимое документа*/
+
     .nav.open .nav-list {
         position: fixed;
         top: 0;
@@ -21,12 +24,15 @@
         font-size: 34px;
         font-weight: 600;
     }
+
     .nav-link {
         color: #828282;
     }
+
     .nav-link.active {
         color: #000;
     }
+
     .nav-button {
         position: absolute;
         z-index: 9;
@@ -87,7 +93,7 @@
     }
 
     .contacts {
-        padding: 60px 0;
+        padding: 55px 0;
     }
 
     .contacts-title {
